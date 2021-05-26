@@ -20,6 +20,9 @@ export function Menu(){
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/contact-us">Contact</NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/addPost">Добавить статью</NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>

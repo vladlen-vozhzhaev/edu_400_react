@@ -8,6 +8,7 @@ import {Blog} from "./pages/Blog";
 import {Footer} from "./components/Footer";
 import {Post} from "./components/Post";
 import {ContactUs} from "./pages/ContactUs";
+import {AddPost} from "./pages/AddPost";
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/post" component={()=><Post/>}/>
             <Route path="/about" component={()=><About/>}/>
             <Route path="/contact-us" component={()=><ContactUs/>}/>
+            <Route path="/addPost" component={()=><AddPost/>}/>
         </BrowserRouter>
         <hr/>
         <Footer/>

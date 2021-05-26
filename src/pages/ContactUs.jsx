@@ -52,6 +52,9 @@ export class ContactUs extends React.Component{
                         </div>
                     </form>
                 </div>
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aeaca1c866f5dfebde3765a50d585a97f24067789c1e34a3ace0d647b6dd9940d&amp;source=constructor"
+                    width="100%" height="400" frameBorder="0"></iframe>
             </div>
         )
     }
